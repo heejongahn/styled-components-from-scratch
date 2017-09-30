@@ -2,10 +2,18 @@
   "name": "styled-components-from-scratch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^8.0.31",
+    "@types/webpack": "^3.0.12",
+    "awesome-typescript-loader": "^3.2.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  }
 }
